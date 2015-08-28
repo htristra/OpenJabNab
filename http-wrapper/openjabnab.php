@@ -1,5 +1,5 @@
 <?php
-	$socket = fsockopen("127.0.0.1", AZERT);
+	$socket = fsockopen("127.0.0.1", ssss);
 	if(!$socket)
 		$socket = fsockopen("127.0.0.1", 80);
 	if(!$socket)
