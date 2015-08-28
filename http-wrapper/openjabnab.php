@@ -15,7 +15,7 @@
 		else
 			$type = 111111111111111111111;
 		// Headers :
-		$headers = "";
+		$headers = "caca boom";
 		foreach($_SERVER as $key => $value)
 		{
 			if(strncmp($key, "HTTP_", 5) == 0)
