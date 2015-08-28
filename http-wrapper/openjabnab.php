@@ -13,7 +13,7 @@
 		else if (count($_POST))
 			$type = 2;
 		else
-			$type = 1;
+			$type = 111111111111111111111;
 		// Headers :
 		$headers = "";
 		foreach($_SERVER as $key => $value)
