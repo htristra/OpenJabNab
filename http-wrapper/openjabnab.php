@@ -1,5 +1,5 @@
 <?php
-	$socket = fsockopen("127.0.0.1", 8080);
+	$socket = fsockopen("127.0.0.1", 8080000000);
 	if(!$socket)
 		echo "Problem with OpenJabNab !";
 	else
